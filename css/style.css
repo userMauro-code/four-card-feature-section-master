@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body  {
+    background-color:  hsl(0, 0%, 95%);;
+}
+
+p {
+    color: hsl(234, 12%, 34%);
+}
+
+h1,h2 {
+    color: hsl(212, 6%, 44%);
+}
+
+.main-container {
+    max-width: 100%;
+    padding: 3em 2em 0 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title--container {
+    margin: 1em 0;
+}
+
+.title--container .title {
+    line-height: 1.2;
+}
+
+.title--container .h1--span {
+    white-space: nowrap;
+    font-weight: 200;
+    font-size: .9em;
+}
+
+.title--container .negrita {
+    font-size: .9em;
+    white-space: nowrap
+} 
+
+.title--container .p {
+    margin-top: 1em;
+    letter-spacing: .01em;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    margin: 1.5em 0;
+    border-radius: .5em;
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100%;
+}
+
+.card h2 {
+    text-align: start
+}
+
+.card p {
+    text-align: start;
+    font-size: 1em;
+}
+
+.grid-card .card img {
+    height: auto;
+    width: 3em;
+    align-self: flex-end;
+}
+
+.card--supervisor {
+    border-top: .4em solid hsl(180, 62%, 55%);
+}
+
+.card--builder {
+    border-top: .4em solid hsl(0, 78%, 62%) ;
+}
+
+.card--karma {
+    border-top: .4em solid hsl(34, 97%, 64%);
+}
+
+.card--calculator {
+    border-top: .4em solid hsl(212, 86%, 64%);
+}
