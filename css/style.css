@@ -89,3 +89,42 @@ h1,h2 {
 .card--calculator {
     border-top: .4em solid hsl(212, 86%, 64%);
 }
+
+@media(min-width: 760px) {
+  .main-container {
+    padding: 1em 10em;
+  }
+
+  .title--container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .grid-card {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+  }
+
+  .card--supervisor {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .card--calculator {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .card--builder {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+  }
+
+  .card--karma {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+}
